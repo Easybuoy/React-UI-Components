@@ -5,9 +5,10 @@ function HeaderContent() {
   return (
     <div className="headerContent">
       <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your co
+        Let's learn React by building simple interfaces with components. Don't
+        try to overthink it, just keep it simple and have fun. Once you feel
+        comfortable using components you are well on your way to mastering
+        React!.
       </p>
     </div>
   );

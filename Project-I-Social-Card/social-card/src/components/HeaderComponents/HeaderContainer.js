@@ -7,8 +7,11 @@ function HeaderContainer() {
   return (
     <div className="headercontainer">
       <ImageThumbnail />
+      <div className="header">
       <HeaderTitle />
       <HeaderContent />
+      </div>
+      
     </div>
   );
 }

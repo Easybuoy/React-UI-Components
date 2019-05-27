@@ -1,9 +1,17 @@
 /* All styles for your Card Components live here */
 .cardContainer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
   border: 1px solid #c7cfd5;
-  width: 70%;
-  margin: 0 auto;
   border-radius: 0.5rem;
+  margin-right: 1.5rem;
 }
 .cardBanner {
   display: flex;
@@ -14,4 +22,26 @@
 
 .cardBanner img {
   width: 100%;
+ border-top-right-radius: 0.5rem;
+ border-top-left-radius: 0.5rem;
+
+}
+
+.cardContent {
+  padding: 0 2rem;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.cardContent h4 {
+  margin: 0;
+}
+
+.cardContent p {
+  margin: 0;
+}
+
+.cardContent a {
+  text-decoration: none;
+  color: #c7cfd5;
 }
