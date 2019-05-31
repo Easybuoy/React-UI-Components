@@ -1,0 +1,20 @@
+.calculatorDisplay {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.labelDiv {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem 0;
+  border: none;
+  font-size: 4rem;
+  justify-content: flex-end;
+}
